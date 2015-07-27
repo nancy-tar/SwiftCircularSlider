@@ -13,8 +13,7 @@ let π:CGFloat = CGFloat(M_PI)
 
 @IBDesignable public class UICircularSlider: UIControl {
     
-    private var renderer = Renderer()
-    //private let renderer : Renderer
+    private var renderer = Renderer()  
     private var gestureRecognizer: RotationGestureRecognizer!
 
     // MARK: API
